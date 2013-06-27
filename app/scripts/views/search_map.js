@@ -27,7 +27,7 @@ Ruby.SearchMapView = Ember.View.extend({
 
         var mapOptions = {
             zoom: 12,
-            center: new google.maps.LatLng("37.0", "-122.0"),
+            center: new google.maps.LatLng("37.7750", "-122.4183"),
             minZoom : 12,
             maxZoom : 19,
             panControl:false,
