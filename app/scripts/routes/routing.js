@@ -31,9 +31,9 @@ Ruby.ListRoute = Ember.Route.extend({
 		return Ruby.Listing.find();
 	},
 
-	renderTemplate: function() {
-        this.render("list/index");
-    }
+	renderTemplate: function(controller) {
+		this.render('list/index', {controller:controller});
+	}
 
 });
 
@@ -53,7 +53,7 @@ Ruby.MapRoute = Ember.Route.extend({
 
     },
 
-    renderTemplate: function() {
-        this.render("map/index");
-    }
+	renderTemplate: function(controller){
+		this.render('map/index', {controller:controller});
+	}
 });
