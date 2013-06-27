@@ -13,7 +13,7 @@ Ruby.Listing.FIXTURES = [
 	{
 		id: 1,
 		price: 125,
-        beds: 3
+        beds: 0
 	},
 	{
 		id: 2,
