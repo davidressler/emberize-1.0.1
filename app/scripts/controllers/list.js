@@ -12,3 +12,7 @@ Ruby.ListController = Ember.ArrayController.extend({
 
 	}.property('@each.beds', 'controllers.search.beds')
 });
+
+Ruby.ListParamsController = Ember.ObjectController.extend({
+	needs: ['list']
+});
