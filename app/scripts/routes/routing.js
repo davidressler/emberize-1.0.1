@@ -22,8 +22,15 @@ Ruby.IndexRoute = Ember.Route.extend({
 });
 
 Ruby.ListRoute = Ember.Route.extend({
-	redirect: function () {
-		this.transitionTo('list.params', 'zoomLevel=12&latitude=37&longtitude=-122')
+//	redirect: function () {
+//		this.transitionTo('list.params', 'zoomLevel=12&latitude=37&longtitude=-122')
+//	},
+    renderTemplate: function() {
+        this.render("list/index");
+    },
+
+    model: function() {
+		return Ruby.Listing.find();
 	}
 });
 
@@ -33,13 +40,12 @@ Ruby.SearchRoute = Ember.Route.extend({
 	},
 
 	model: function() {
-		return Ruby.Search.query();
+		return Ruby.Search.find();
 	}
 });
 
 Ruby.MapRoute = Ember.Route.extend({
     model: function() {
-	    console.log(this);
         return Ruby.Search.find();
     },
 
