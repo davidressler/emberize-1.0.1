@@ -1,0 +1,12 @@
+<header>
+	<img src="/images/lovelyLogo.png">
+
+	{{view Ruby.BedsSelectView classNames="pull-right"
+								contentBinding="Ruby.beds"
+								optionValuePath="content.value"
+								optionLabelPath="content.name"
+	}}
+	<a class="btn btn-danger">Renter Card</a>
+	{{#linkTo list classNames="btn btn-primary"}}List{{/linkTo}}
+	{{#linkTo map classNames="btn btn-success"}}Map{{/linkTo}}
+</header>

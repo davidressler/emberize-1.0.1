@@ -1,0 +1,39 @@
+html, body, .ember-view {
+    height: 100%;
+    min-height: 100%;
+}
+
+header{
+    background-color: #f3f3f3;
+    box-shadow: 0px 1px 3px #bbb;
+	min-height: 3%;
+	position: relative;
+	z-index: 1000;
+}
+
+header a{
+    float:right;
+    margin:11px 20px 0 0px;
+}
+
+header img{
+	height: 50px;
+	margin: 2px 0px 0px 10px;
+}
+
+header select{
+	margin: 14px 0 0 0;
+}
+
+.map-wrapper {
+    height: 97%; /* IE6: treaded as min-height*/
+	width: 100%;
+}
+
+.map {
+   height: 100%
+}
+
+.map img{
+   max-width: none;
+}
