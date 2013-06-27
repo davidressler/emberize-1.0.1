@@ -25,13 +25,16 @@ Ruby.ListRoute = Ember.Route.extend({
 //	redirect: function () {
 //		this.transitionTo('list.params', 'zoomLevel=12&latitude=37&longtitude=-122')
 //	},
-    renderTemplate: function() {
-        this.render("list/index");
-    },
 
-    model: function() {
+
+	model: function() {
 		return Ruby.Listing.find();
-	}
+	},
+
+	renderTemplate: function() {
+        this.render("list/index");
+    }
+
 });
 
 Ruby.SearchRoute = Ember.Route.extend({
@@ -46,7 +49,8 @@ Ruby.SearchRoute = Ember.Route.extend({
 
 Ruby.MapRoute = Ember.Route.extend({
     model: function() {
-        return Ruby.Search.find();
+        return Ruby.Listing.find();
+
     },
 
     renderTemplate: function() {

@@ -13,11 +13,15 @@ Ruby.Search = DS.Model.extend({
 //////////////////////////
 
 Ruby.Search.FIXTURES = [
-    {
-        id: 1,
-        beds: 2,
-        zoomLevel: 12,
-        latitude: 37,
-        longitude: -122
-    }
+
+	{
+		id: 1,
+		zoomLevel: 12,
+		beds: 2,
+		itemId: null,
+		typeId: null,
+		latitude: 37,
+		longitude: -122
+	}
+
 ];
