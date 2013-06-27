@@ -11,5 +11,8 @@ Ruby.BedsSelectView = Ember.Select.extend({
 	contentBinding: Ruby.beds,
 	change: function(){
 		this.get('controller').set('beds', this.selection.get('value'));
-	}
+	},
+    init: function() {
+
+    }
 });
