@@ -1,4 +1,5 @@
 Ruby.beds = [
+		Ember.Object.create({name: 'No beds selected', value: null}),
         Ember.Object.create({name: 'Studio', value: 0}),
 	    Ember.Object.create({name: '1 bedroom', value: 1}),
 	    Ember.Object.create({name: '2 bedrooms', value: 2}),
@@ -7,6 +8,8 @@ Ruby.beds = [
 ];
 
 Ruby.BedsSelectView = Ember.Select.extend({
-	prompt: "Select beds",
-	contentBinding: Ruby.beds
+	contentBinding: Ruby.beds,
+	change: function(){
+		this.get('controller').set('beds', this.selection.get('value'));
+	}
 });
