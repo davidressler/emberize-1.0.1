@@ -9,7 +9,7 @@
     <file path="/index.html" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372349294446" ignored="false" />
     <file path="$USER_HOME$/emberize/app/scripts/models/search.js" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372349427861" ignored="false" />
     <file path="/routing.js" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372375114202" ignored="false" />
-    <file path="/search.js" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372370361680" ignored="false" />
+    <file path="/search.js" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372376759730" ignored="false" />
     <file path="/listing.js" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372354665208" ignored="false" />
     <file path="/index.hbs" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372374594628" ignored="false" />
     <file path="/list.js" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372374727219" ignored="false" />
@@ -155,7 +155,6 @@
         <option value="$PROJECT_DIR$/app/templates/application.hbs" />
         <option value="$PROJECT_DIR$/app/templates/search.hbs" />
         <option value="$PROJECT_DIR$/app/scripts/models/listing.js" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/search.js" />
         <option value="$PROJECT_DIR$/app/templates/list/index.hbs" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/list.js" />
         <option value="$PROJECT_DIR$/app/templates/list/list_view.hbs" />
@@ -163,6 +162,7 @@
         <option value="$PROJECT_DIR$/app/scripts/views/beds.js" />
         <option value="$PROJECT_DIR$/app/scripts/views/beds_select.js" />
         <option value="$PROJECT_DIR$/app/templates/partials/_header.hbs" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/search.js" />
       </list>
     </option>
   </component>
