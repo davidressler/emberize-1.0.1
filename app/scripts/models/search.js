@@ -20,13 +20,3 @@ Ruby.Search.reopenClass({
        }
    }
 });
-
-Ruby.Listing = DS.Model.extend({
-   price: '125'
-});
-
-Ruby.Listing.reopenClass({
-   find: function(searchObj) {
-       console.log(searchObj);
-   }
-});
