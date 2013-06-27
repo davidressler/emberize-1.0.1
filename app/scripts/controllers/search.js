@@ -9,5 +9,5 @@ Ruby.SearchController = Ember.ObjectController.extend({
 			model.save();
 			return value;
 		}
-	}
+	}.property('model.beds')
 });
