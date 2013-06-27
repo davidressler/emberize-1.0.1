@@ -17,7 +17,7 @@ Ruby.Search.FIXTURES = [
 	{
 		id: 1,
 		zoomLevel: 12,
-		beds: 2,
+		beds: 1,
 		itemId: null,
 		typeId: null,
 		latitude: 37,

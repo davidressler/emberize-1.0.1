@@ -1,7 +1,9 @@
 Ruby.ListController = Ember.ArrayController.extend({
 	needs: ['search'],
+//    controllers.search
 
 	visibleListings: function() {
-		return this.filterProperty('beds', 1);
+        var bc = this.get('controllers.search.beds');
+		return this.filterProperty('beds', bc);
 	}.property('@each.beds')
 });

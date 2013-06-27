@@ -43,7 +43,7 @@ Ruby.SearchRoute = Ember.Route.extend({
 	},
 
 	model: function() {
-		return Ruby.Search.find();
+		return Ruby.Search.find(1);
 	}
 });
 
