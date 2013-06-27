@@ -3,8 +3,8 @@ Ruby.ListController = Ember.ArrayController.extend({
 
 	visibleListings: function() {
 		var bedCount = this.get('controllers.search.beds');
-		console.log('hey');
-		if(bedCount){
+
+		if(bedCount != null){
 			return this.filterProperty('beds', bedCount);
 		}else{
 			return this.filterProperty('id');
