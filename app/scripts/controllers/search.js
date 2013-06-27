@@ -1,4 +1,13 @@
 Ruby.SearchController = Ember.ObjectController.extend({
-    beds: this.get('beds'),
-    price: this.get('price')
+	beds: function(key, value) {
+		var model = this.get('model');
+
+		if (value == undefined) {
+			return model.get('beds');
+		}else {
+			model.set('beds', value);
+			model.save();
+			return value;
+		}
+	}
 });
