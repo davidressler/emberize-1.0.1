@@ -1,3 +1,4 @@
-Ruby.SearchController = Ember.ObjectController.extend({
-
+Ruby.SearchController = Ember.ArrayController.extend({
+    beds: this.get('beds'),
+    price: this.get('price')
 });

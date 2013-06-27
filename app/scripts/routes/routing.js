@@ -27,14 +27,14 @@ Ruby.SearchRoute = Ember.Route.extend({
 	},
 
 	model: function() {
-		return Ruby.Search.find();
+		return Ruby.Search.query();
 	}
 });
 
 Ruby.MapRoute = Ember.Route.extend({
     model: function() {
 	    console.log(this);
-        return Ruby.Listing.find();
+        return Ruby.Search.find();
     },
 
     renderTemplate: function() {
