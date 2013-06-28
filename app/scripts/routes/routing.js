@@ -23,11 +23,11 @@ Ruby.IndexRoute = Ember.Route.extend({
 
 Ruby.ListRoute = Ember.Route.extend({
 	redirect: function () {
-		this.transitionTo('list.params', 'zoomLevel=12&latitude=37&longtitude=-122')
+		this.transitionTo('list.params', 'beds=3&zoomLevel=23')
 	},
 
 	renderTemplate: function(controller) {
-		this.render('list/index', {controller:controller});
+		this.render('list/index', {controller: controller});
 	},
 
 	model: function() {
@@ -38,7 +38,11 @@ Ruby.ListRoute = Ember.Route.extend({
 Ruby.ListParamsRoute = Ember.Route.extend({
 	renderTemplate: function(controller) {
 		this.render('list/list_view', {controller:controller});
-	}
+	},
+
+    setupController: function(controller, params) {
+        this.controllerFor('search').set('deserializeParams', params);
+    }
 });
 
 Ruby.SearchRoute = Ember.Route.extend({
