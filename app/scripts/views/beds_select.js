@@ -19,7 +19,6 @@ Ruby.BedsSelectView = Ember.Select.extend({
 
 	},
 	change: function(){
-		console.log('poop');
-		this.get('controller').set('beds', this.selection.get('value'));
+        this.get('controller').set('serializeParams', ['beds', this.selection.get('value')]);
 	}
 });
