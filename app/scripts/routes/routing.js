@@ -42,12 +42,11 @@ Ruby.ListParamsRoute = Ember.Route.extend({
 });
 
 Ruby.SearchRoute = Ember.Route.extend({
+	model: function() {
+		return Ruby.Search.find('1');
+	},
 	redirect: function () {
 		this.transitionTo('list')
-	},
-
-	model: function() {
-		return Ruby.Search.find(1);
 	}
 });
 

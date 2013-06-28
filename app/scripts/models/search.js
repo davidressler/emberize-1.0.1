@@ -15,7 +15,7 @@ Ruby.Search = DS.Model.extend({
 Ruby.Search.FIXTURES = [
 
 	{
-		id: 1,
+		id: '1',
 		zoomLevel: 12,
 		beds: 1,
 		itemId: null,
