@@ -10,7 +10,16 @@ Ruby.beds = [
 Ruby.BedsSelectView = Ember.Select.extend({
 	classNames: ['pull-right'],
 	contentBinding: Ruby.beds,
+	init: function() {
+		var that = this;
+		that._super();
+		setTimeout(function(){
+			that.set('valueBinding', 'controller.beds');
+		}, 100);
+
+	},
 	change: function(){
+		console.log('poop');
 		this.get('controller').set('beds', this.selection.get('value'));
 	}
 });

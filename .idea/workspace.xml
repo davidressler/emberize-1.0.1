@@ -2,29 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7173be7-3256-472b-9162-85173fcc0853" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/partials/_header.hbs" afterPath="$PROJECT_DIR$/app/templates/partials/_header.hbs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/views/beds_select.js" afterPath="$PROJECT_DIR$/app/scripts/views/beds_select.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/routes/routing.js" afterPath="$PROJECT_DIR$/app/scripts/routes/routing.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/search.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/search.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="emberize-1.0.1.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372442279746" ignored="false" />
+    <file path="/Dummy.txt" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372446861731" ignored="false" />
     <file path="/beds.js" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372378195517" ignored="false" />
     <file path="/index.html" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372349294446" ignored="false" />
     <file path="$USER_HOME$/emberize/app/scripts/models/search.js" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372349427861" ignored="false" />
-    <file path="/routing.js" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372445282457" ignored="false" />
-    <file path="/search.js" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372446509051" ignored="false" />
+    <file path="/routing.js" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372449058540" ignored="false" />
+    <file path="/search.js" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372448606756" ignored="false" />
     <file path="/listing.js" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372354665208" ignored="false" />
     <file path="/index.hbs" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372384628914" ignored="false" />
     <file path="/list.js" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372442975326" ignored="false" />
     <file path="/application.hbs" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372366626414" ignored="false" />
-    <file path="/_header.hbs" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372435654917" ignored="false" />
+    <file path="/_header.hbs" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372449006555" ignored="false" />
     <file path="/search.hbs" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372366688556" ignored="false" />
     <file path="/list.hbs" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372366853116" ignored="false" />
     <file path="/list_view.hbs" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372374743799" ignored="false" />
     <file path="$USER_HOME$/Github/Pearl/pearl/templates/include/renters/templates/rentercard.html" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372438602914" ignored="false" />
-    <file path="/beds_select.js" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372436002469" ignored="false" />
+    <file path="/beds_select.js" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372447694248" ignored="false" />
     <file path="$USER_HOME$/Github/Pearl/pearl/templates/include/renters/modals/contact.html" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372438602914" ignored="false" />
     <file path="$USER_HOME$/Github/Pearl/pearl/public/resource/style/pro/property.css" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372438602914" ignored="false" />
     <file path="$USER_HOME$/Github/Pearl/pearl/templates/controller/authenticate/connect.html" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372433249363" ignored="false" />
@@ -44,10 +45,10 @@
     <file path="/reversealert.html" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372438620451" ignored="false" />
     <file path="$USER_HOME$/Github/Pester/pester/templates/messages/reversealert.html" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372438949242" ignored="false" />
     <file path="$USER_HOME$/Github/Pester/pester/lib/messaging.py" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372438949242" ignored="false" />
-    <file path="/a.dummy" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372440612477" ignored="false" />
+    <file path="/a.dummy" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372448848582" ignored="false" />
     <file path="$USER_HOME$/Github/Bottomless/bottomless/migrations/versions/33296826be03_external_user_id.py" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372440658575" ignored="false" />
     <file path="/33296826be03_external_user_id.py" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372440656486" ignored="false" />
-    <file path="/app.js" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372444519635" ignored="false" />
+    <file path="/app.js" changelist="f7173be7-3256-472b-9162-85173fcc0853" time="1372447847736" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +68,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routing.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="routing.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/routes/routing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="59" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="55" column="27" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.5677908">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,10 +95,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="search.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="3" selection-start="625" selection-end="625" vertical-scroll-proportion="0.4276316">
+            <state line="16" column="12" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.hbs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/partials/_header.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="33" selection-start="359" selection-end="359" vertical-scroll-proportion="-6.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.hbs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/search.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="10" selection-start="41" selection-end="41" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
@@ -108,10 +125,17 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="22" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="3" column="25" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beds_select.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/views/beds_select.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="3" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,21 +167,21 @@
         <option value="$PROJECT_DIR$/app/scripts/models/listing.js" />
         <option value="$PROJECT_DIR$/app/templates/view/beds.hbs.html" />
         <option value="$PROJECT_DIR$/app/templates/view/beds.hbs" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/list.js" />
+        <option value="$PROJECT_DIR$/app/scripts/models/search.js" />
+        <option value="$PROJECT_DIR$/app/scripts/app.js" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/search.js" />
         <option value="$PROJECT_DIR$/app/scripts/views/beds_select.js" />
         <option value="$PROJECT_DIR$/app/templates/partials/_header.hbs" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/list.js" />
-        <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/scripts/routes/routing.js" />
-        <option value="$PROJECT_DIR$/app/scripts/models/search.js" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/search.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="109" />
-    <option name="y" value="22" />
-    <option name="width" value="1737" />
-    <option name="height" value="1058" />
+    <option name="x" value="2560" />
+    <option name="y" value="-213" />
+    <option name="width" value="1080" />
+    <option name="height" value="1920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -425,6 +449,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emberize-1.0.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emberize-1.0.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emberize-1.0.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emberize-1.0.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emberize-1.0.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emberize-1.0.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ember-data-shim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -498,14 +580,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="109" y="22" width="1737" height="1058" extended-state="0" />
+    <frame x="2560" y="-213" width="1080" height="1920" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1653718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15257244" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37427467" sideWeight="0.83462816" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -514,7 +597,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -579,15 +661,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/map/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="6" selection-start="61" selection-end="61" vertical-scroll-proportion="-1.25" />
@@ -601,32 +678,6 @@
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/map.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="21" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/bower_components/ember-data-shim/ember-data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1476" column="11" selection-start="42295" selection-end="42299" vertical-scroll-proportion="-2.9807131" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/views/beds_select.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="3" selection-start="564" selection-end="564" vertical-scroll-proportion="0.29450262">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/search.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="10" selection-start="41" selection-end="41" vertical-scroll-proportion="0.033783782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/partials/_header.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="9" selection-start="341" selection-end="341" vertical-scroll-proportion="0.1858108">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/models/listing.js">
@@ -650,24 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="22" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/routes/routing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="59" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/models/search.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="31" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
@@ -682,9 +715,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="25" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/search.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="10" selection-start="41" selection-end="41" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="3" selection-start="625" selection-end="625" vertical-scroll-proportion="0.4276316">
+        <state line="16" column="12" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/ember-data-shim/ember-tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="220103" selection-start="221190" selection-end="221190" vertical-scroll-proportion="0.7867133">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/ember-data-shim/ember-data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7943" column="8" selection-start="236321" selection-end="236321" vertical-scroll-proportion="0.66083914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/views/beds_select.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="3" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/partials/_header.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="33" selection-start="359" selection-end="359" vertical-scroll-proportion="-6.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/routes/routing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="27" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.5677908">
           <folding />
         </state>
       </provider>

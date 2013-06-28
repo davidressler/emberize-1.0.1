@@ -1,15 +1,20 @@
 Ruby.SearchController = Ember.ObjectController.extend({
 
     deserializeParams: function(key ,value) {
+	    console.log('DESERIALIZE');
         var values = Ruby.deserializeParams(value);
         var model = this.get('model');
 
-        for (key in values) {
-            model.set(key, values[key]);
-        }
+	    setTimeout(function(){
+		    for (key in values) {
+	            model.set(key, values[key]);
+	        }
+	    }, 100);
+
+
         setTimeout(function(){
             model.save();
-        },130)
+        },100)
 
     }.property('model.beds'),
 
