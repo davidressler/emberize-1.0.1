@@ -1,8 +1,11 @@
 Ruby.SearchController = Ember.ObjectController.extend({
 
+    searchParams: null,
+
     deserializeParams: function(key ,value) {
 	    console.log('DESERIALIZE');
         var values = Ruby.deserializeParams(value);
+        this.searchParams = values;
 
         var model = this.get('model');
 
@@ -20,9 +23,9 @@ Ruby.SearchController = Ember.ObjectController.extend({
     }.property('model.beds'),
 
     serializeParams: function(key, value) {
-        var url = "";
-        url += value[0] + "=" + value[1];
-        this.transitionToRoute('list.params', url);
+        var url = Ruby.serializeParams(key, value, this.searchParams);
+
+//        this.transitionToRoute('list.params', url);
     }.property(),
 
     beds: function(key, value) {
