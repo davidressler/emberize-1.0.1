@@ -70,7 +70,7 @@ Ruby.MapRoute = Ember.Route.extend({
 
 Ruby.MapParamsRoute = Ember.Route.extend({
 	renderTemplate: function(controller) {
-		this.render('map/map_view', {controller:controller});
+		this.render('map/map_view', { controller: controller });
 	},
 
     setupController: function(controller, params) {

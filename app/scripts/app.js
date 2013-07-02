@@ -10,6 +10,10 @@ require('scripts/models/*');
 require('scripts/views/*');
 
 Ruby.deserializeParams = function(params) {
+    if (params === undefined) {
+        return;
+    }
+
     var typeDict = {
         beds: 'int',
         zoomLevel: 'int'
@@ -28,4 +32,16 @@ Ruby.deserializeParams = function(params) {
     }
 
     return values;
+};
+
+Ruby.serializeParams = function(key, value, currentParams) {
+
+    console.log('serializing params:: k = ', key, " V = ", value);
+    console.log('current Params:: ', currentParams);
+
+    var k = value[0],
+        v = value[1],
+        url = "";
+
+
 };
