@@ -1,6 +1,8 @@
 /*global Ember */
 
-var Ruby = window.Ruby = Ember.Application.create({});
+var Ruby = window.Ruby = Ember.Application.create({
+	LOG_TRANSITIONS: true
+});
 
 /* Order and include as you please. */
 require('scripts/lib/*');

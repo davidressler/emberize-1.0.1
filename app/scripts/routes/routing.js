@@ -17,6 +17,7 @@ Ruby.Router.map(function () {
 /* Specific Routes */
 Ruby.IndexRoute = Ember.Route.extend({
 	redirect: function () {
+		console.log('redirecting to search');
 		this.transitionTo('search');
 	}
 });
@@ -46,10 +47,13 @@ Ruby.ListParamsRoute = Ember.Route.extend({
 });
 
 Ruby.SearchRoute = Ember.Route.extend({
+
 	model: function() {
+		console.log('init search model');
 		return Ruby.Search.find('1');
 	},
 	redirect: function () {
+		console.log('redirecting to list');
 		this.transitionTo('list')
 	}
 });
